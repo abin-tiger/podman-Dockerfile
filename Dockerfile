@@ -5,6 +5,7 @@ RUN apt-get update
 RUN apt-get install -y \
   btrfs-progs \
   git \
+  build-essential \
   go-md2man \
   iptables \
   libassuan-dev \
